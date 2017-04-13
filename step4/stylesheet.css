@@ -1,0 +1,101 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+nav{
+    float: right;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: gray;
+}
+
+
+
+
+body {
+    background-image: url(wumpus/cave-background.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+header {
+    color: white;
+    background-color: #3f3622;
+    padding: 0.5em;
+}
+
+header h1{
+    font-size: 3em;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 0.5em;
+    width: 650px;
+}
+
+div figure img{
+    margin: 1em 0.5em 1em 0.5em;
+    border: thin solid black;
+    padding: 0.5em;
+}
+
+
+
+.centerdiv{
+    background-color: white;
+    padding: 0 0.5em 0 0.5em;
+    margin: auto;
+
+}
+
+.center{
+    margin: auto;
+    width: 650px;
+}
+
+
+
+p.gamefont{
+    font-size: 1.8em;
+    font-family: Arial;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+div.room {
+    width: 200px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+div div p{
+    font-size: 1em;
+    font-family: Arial;
+    text-align: center;
+}
+
+a.linkcolor{
+    color: #3f3622;
+}
+
+p.welcomefont{
+    font-size: 1.5em;
+    font-family: Arial;
+    text-align: center;
+    padding-bottom: 1.3em;
+}
+
+.emphasis{
+   font-size: 1.5em;
+}
